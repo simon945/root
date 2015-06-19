@@ -1,0 +1,19 @@
+$main-color: #ce4dd6;
+$style: solid;
+$font-size: 2em;//添加的scss样式
+
+.navbar {
+    border-bottom: {
+        color: $main-color;
+        style: $style;
+    }
+}
+
+a {
+    color: $main-color;
+    font-size: $font-size;//添加scss样式
+    &:hover {
+        border-bottom: 1px $style;
+    }
+
+}
